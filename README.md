@@ -60,4 +60,4 @@ source .devops/bin/activate
 * `requirements.txt`: has the libraries of installed dependencies
 * `run_docker.sh`: to run and build a docker image
 * `run_kubernetes.sh`: to deploy application using kubectl
-* upload_docker.sh: upload your built image to docker
+* `upload_docker.sh`: upload your built image to docker
