@@ -7,7 +7,7 @@ This is all done by testing the ability to operationalize a Flask application wh
 
 ### Project Tasks
 
-Your project goal is to operationalize this working, machine learning microservice using [kubernetes](https://kubernetes.io/), which is an open-source system for automating the management of containerized applications. In this project you will:
+The project goal is to operationalize a working, machine learning microservice using [kubernetes](https://kubernetes.io/). These are some of the completed actions:
 * Tested code using linting
 * Completed a Dockerfile to containerize the application
 * Deployed the containerized application using Docker and make a prediction
@@ -16,7 +16,7 @@ Your project goal is to operationalize this working, machine learning microservi
 * Deployed a container using Kubernetes and made a prediction
 * Uploaded a complete Github repo with CircleCI to indicate that the code has been tested
 
-## Project Tasks
+## Requirement
 * Python 3.7
 
 ---
@@ -46,3 +46,18 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+* Run minikube: `minikube start`
+
+
+### Project Files
+* `docker_out.txt`: terminal output containing log info after running prediction to docker container
+* `kubernetes_out.txt`: terminal output containing log info after running prediction to kubernetes cluster
+* `config.yml`: Circeci configuration file
+* `app.py`: Flask script
+* `Dockerfile`: contains every command used in the building and running of a docker image
+* `make_prediction.sh`: source code is responsible for passing data through a trained, machine learning model, and responding with a predicted value for the house price.
+* `Makefile`: used to test and install software, build scripts, and collect and run task
+* `requirements.txt`: has the libraries of installed dependencies
+* `run_docker.sh`: to run and build a docker image
+* `run_kubernetes.sh`: to deploy application using kubectl
+* upload_docker.sh: upload your built image to docker
