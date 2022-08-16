@@ -1,4 +1,4 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Dzhud/DevOpsML/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Dzhud/DevOpsML/tree/master)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Dzhud/ML-Microservice-With-Kubernetes/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Dzhud/ML-Microservice-With-Kubernetes/tree/master)
 
 ## Project Overview
 
